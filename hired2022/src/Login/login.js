@@ -9,12 +9,10 @@ function Login() {
         function validarForm(){
             return email.length > 0 && password.length > 0;
         }
-
+        
         function handleSubmit(event){
-
             event.preventDefault();
         }
-
     return (
     
         <div className="Login">
